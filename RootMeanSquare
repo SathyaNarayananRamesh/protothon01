@@ -1,0 +1,15 @@
+import math
+array = [int(x) for x in input().split(',')]
+def rmsValue(array, n): 
+    square = 0
+    mean = 0.0
+    root = 0.0
+
+    for i in range(0,n): 
+        square += (array[i]**2)
+    mean = (square / (float)(n)) 
+    root = math.sqrt(mean) 
+    return root    
+if __name__=='__main__':
+    n=len(array)
+    print(rmsValue(array, n)) 
