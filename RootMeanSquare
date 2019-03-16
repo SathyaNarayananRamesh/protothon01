@@ -1,5 +1,8 @@
 import math
 array = [int(x) for x in input().split(',')]
+array=[float(i) for i in array]
+print(array)
+
 def rmsValue(array, n): 
     square = 0
     mean = 0.0
