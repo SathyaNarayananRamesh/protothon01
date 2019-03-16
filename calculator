@@ -1,0 +1,23 @@
+a=float(input())
+b=float(input())
+print("Which operation do you want to perform?")
+print("Add, Sub, Mul, Div")
+c=input()
+def add(a, b):
+   return a + b
+def sub(a, b):
+   return x - y
+def mul(a, b):
+   return a * b 
+def div(a, b):
+   return a / b
+if c == 'add':
+   print(a,"+",b,"=", add(a,b))
+elif c == 'sub':
+   print(a,"-",b,"=", sub(a,b))
+elif c == 'mul':
+   print(a,"*",b,"=", mul(a,b))
+elif c == 'div':
+   print(a,"/",b,"=", div(a,b))
+else:
+   print("Invalid Input")
