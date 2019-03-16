@@ -1,0 +1,7 @@
+from itertools import permutations 
+str = input("Enter the word to be permuted: ") 
+def allPermutations(str): 
+    permutations_List = permutations(str) 
+    for perm in list(permutations_List): 
+         print (''.join(perm)) 
+allPermutations(str) 
